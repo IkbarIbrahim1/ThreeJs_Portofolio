@@ -8,17 +8,17 @@ import Footer from "./section/Footer.jsx";
 import Experience from "./section/Experience.jsx";
 
 const App = () => {
-    return (
-        <main className="max-w-7xl mx-auto">
-            <Navbar />
-            <Hero />
-            <About />
-            <Project />
-            <Client />
-            <Contact />
-            <Footer />
-            <Experience />
-        </main>
-    )
-}
-export default App
+  return (
+    <main className="max-w-7xl mx-auto">
+      <Navbar />
+      <Hero />
+      <About />
+      <Project />
+      <Client />
+      <Experience />
+      <Contact />
+      <Footer />
+    </main>
+  );
+};
+export default App;
