@@ -29,7 +29,7 @@ const Target = (props) => {
     const targetRef = useRef();
 
     // Memuat file Target.glb dari folder public
-    const { scene } = useGLTF('models/target.glb');
+    const { scene } = useGLTF('models/Target.glb');
 
     useGSAP(() => {
         if (targetRef.current) {
